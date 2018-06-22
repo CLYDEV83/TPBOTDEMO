@@ -19,7 +19,7 @@ class Chatroom extends React.Component {
             },
             {
                 username: "Travis Chat",
-                content: <p></p>,
+                content: <p>Hi, welcome to the Travis Perkins FAQ BOT</p>,
                 img: tpLogo,
             }]
         };

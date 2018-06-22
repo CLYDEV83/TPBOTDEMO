@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import './App.css';
 import tpLogo from './1200px-Travis_Perkins.png';
-
+import headerImage from './tplogo.png';
 import Message from './Message.js';
 
 
@@ -99,7 +99,8 @@ class Chatroom extends React.Component {
 
         return (
             <div className="chatroom">
-                <h3>Travis Perkins</h3>
+            <div className="header"><img src={headerImage}/></div>
+                {/* <h3>Travis Perkins</h3> */}
                 <ul className="chats" ref="chats">
                     {
                         chats.map((chat) => 

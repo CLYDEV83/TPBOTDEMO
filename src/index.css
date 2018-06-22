@@ -16,7 +16,7 @@ p
 }
 .App
 {
-  background-color:#1ee494;
+  background-color:whitesmoke;
   height:100vh;
   width:100vw;
   display:-ms-flexbox;
@@ -30,11 +30,15 @@ p
 {
   width:360px;
   height:600px;
-  background-color:rgba(0,0,0,.7);
+  background-color:#0a4f38;
   border-radius:5px;
   overflow:hidden;
   -webkit-box-shadow:0 0 8px 0 rgba(0,0,0,.3);
   box-shadow:0 0 8px 0 rgba(0,0,0,.3)
+}
+.chatroom .header
+{
+  background-color: #fff
 }
 .chatroom h3
 {
@@ -55,15 +59,16 @@ p
     box-sizing:border-box;
     padding:0 20px;
     margin:10px 0 0;
-    height:510px;
+    height:475px;
     overflow-y:scroll
   }
   .chatroom .chats .chat
   {
-    background:hsla(0,0%,100%,.8);
+    background:#f6b112;
     position:relative;
     padding:5px 13px;
     font-size:14px;
+    font-weight: bold;
     border-radius:10px;
     list-style:none;
     float:left;
@@ -116,8 +121,9 @@ p
   }
   .chatroom .input input[type=submit]
   {
-    background:transparent;
-    border:1px solid #1ee494;
+    background-color:#f6b112;
+    border:1px solid #f6b112;
+    border-color: #f6b112;
     width:70px;
     border-top-right-radius:5px;
     border-bottom-right-radius:5px;
@@ -126,9 +132,9 @@ p
     -o-transition:all .3s ease;
     transition:all .3s ease
   }
-  .chatroom .input input[type=submit]:hover
+  /* .chatroom .input input[type=submit]:hover
   {
     background:#1ee494;
     color:#fff
-  }
+  } */
 /*# sourceMappingURL=main.b5d0bdf9.css.map*/
